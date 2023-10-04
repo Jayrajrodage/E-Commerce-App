@@ -1,0 +1,31 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "dev": "npm install",
+    "build": "npm run build",
+    "start": "node server.js",
+    "test": "./node_modules/.bin/mocha test/**/*.spec.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "braintree": "^3.16.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-formidable": "^1.2.0",
+    "jsonwebtoken": "^9.0.1",
+    "mongoose": "^7.4.2",
+    "morgan": "^1.10.0",
+    "nodemon": "^3.0.1",
+    "slugify": "^1.6.6",
+    "zod": "^3.21.4",
+    "zod-error": "^1.5.0",
+    "zod-validation-error": "^1.5.0"
+  }
+}
