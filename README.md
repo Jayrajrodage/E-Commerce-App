@@ -15,6 +15,14 @@ Welcome to the E-commerce Web-App repository. This project is a feature-rich e-c
   - Users can easily search and filter products by category and price.
   - Enhances the shopping experience and product discovery.
 
+- **Cart Management:**
+  - Users can add products to their cart.
+  - Review and edit the items in the cart before making a purchase.
+
+- **Order Tracking:**
+  - Users can track the status of their orders.
+  - Real-time updates on order processing and delivery.
+
 - **Secure Payments:**
   - Card-based payments using [Braintree](https://www.braintreegateway.com/) for secure transactions.
 
