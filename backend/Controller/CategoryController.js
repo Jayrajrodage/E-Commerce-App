@@ -1,7 +1,6 @@
 const categoryModel = require("../models/CatgoryModel");
 const slugify = require("slugify");
 const { z } = require("zod");
-const { fromZodError } = require("zod-validation-error");
 const CategorySchema = z.object({
   name: z
     .string()
